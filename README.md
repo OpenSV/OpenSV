@@ -11,6 +11,8 @@ This is an opensource video platform.  It is growing and we don't know what it w
 <br>A Front End for Advertisers
 <br>A client for iOS and Android
 <br>Ability for Content Creators, Users and Advertisers to create Channels
+<br>Ability to Search Content
+<br>Ability to Add Transcriptions
 
 Check back in as we build up the system!  
 

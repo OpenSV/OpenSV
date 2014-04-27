@@ -13,6 +13,7 @@ This is an opensource video platform.  It is growing and we don't know what it w
 <br>Ability for Content Creators, Users and Advertisers to create Channels
 <br>Ability to Search Content
 <br>Ability to Add Transcriptions
+<br>Analytics - views by platform, views by ip address, etc...
 
 Check back in as we build up the system!  
 

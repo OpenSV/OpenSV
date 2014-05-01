@@ -1,4 +1,4 @@
-videoplatform
+OpenSV - OpenSource Video
 =============
 
 This is an opensource video platform.  It is growing and we don't know what it will become but it should contain:

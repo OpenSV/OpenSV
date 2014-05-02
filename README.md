@@ -16,6 +16,7 @@ This is an opensource video platform.  It is growing and we don't know what it w
 <br>Analytics - views by platform, views by ip address, etc...
 <br>Ability to Add Annotations
 <br>Ability to Add Hyperlinks to Video Annotations
+<br>Ability to report content as breaking the terms of service
 
 Check back in as we build up the system!  
 

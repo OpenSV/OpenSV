@@ -1,14 +1,15 @@
+
 #!/bin/sh
 
-mkdir ../OpenSV
-mkdir ../OpenSV/Players
-mkdir ../OpenSV/OpenShift
+cd ..
+mkdir OpenSV
+mkdir OpenSV/Players
 
 scripts/get_js_players.sh
 
-cd OpenSV/OpenShift
+cd OpenSV
 git clone https://github.com/OpenSV/OpenShift.git
-cd ../..
+cd ..
 
 pwd
 ls -l
@@ -27,5 +28,6 @@ mkdir /var/www/opensv/js
 cp -R OpenSV/Players /var/www/opensv/js/
 cp html/samples/videojs.html /var/www/opensv
 
-cp -R OpenSV/Players OpenSV/OpenShift/OpenShift/app/js/
+cp -R OpenSV/Players OpenSV/OpenShift/app/js/
+cp -R html/samples/videojs.html OpenSV/OpenShift/app/partials/
 

@@ -20,4 +20,4 @@ This is an opensource video platform.  It is growing and we don't know what it w
 
 Check back in as we build up the system!  
 
-Also, if you want to contribute do the Pull Request thing or drop us a line at support@appjacket.com or through the usual channels.
+Also, if you want to contribute do the Pull Request thing or drop us a line at support@opensv.com or through the usual channels.

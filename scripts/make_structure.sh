@@ -10,7 +10,7 @@ ls -l
 cd OpenSV/Players/video.js
 npm install
 grunt
-cd ../..
+cd ../../..
 pwd
 mkdir /var/www/opensv
 mkdir /var/www/opensv/js

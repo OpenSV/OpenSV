@@ -31,3 +31,5 @@ cp html/samples/videojs.html /var/www/opensv
 cp -R OpenSV/Players OpenSV/OpenShift/app/js/
 cp -R html/samples/videojs.html OpenSV/OpenShift/app/partials/
 
+scripts/pushToOpenShift.sh
+

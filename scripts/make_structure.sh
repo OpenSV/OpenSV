@@ -15,5 +15,5 @@ pwd
 mkdir /var/www/opensv
 mkdir /var/www/opensv/js
 cp -R OpenSV/Players /var/www/opensv/js/
-
+cp html/samples/videojs.html /var/www/opensv
 

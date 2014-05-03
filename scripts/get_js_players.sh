@@ -1,6 +1,6 @@
 #!/bin/sh
 
-cd ../OpenSV
+cd OpenSV
 cd Players
 
 #clone jPlayer

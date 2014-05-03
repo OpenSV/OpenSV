@@ -1,10 +1,4 @@
 <html>
-        <body>
-        <iframe width="560" height="400" src="http://198.61.169.77/mediaserver/index.html" frameborder="0"></iframe>
-        </body>
-</html>
-root@test3:/var/www/mediaserver# more index.html
-<html>
         <head>
           <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
         <script type="text/javascript" src="app/js/Players/jPlayer/jquery.jplayer/jquery.jplayer.min.js"></script>

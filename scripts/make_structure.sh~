@@ -1,4 +1,3 @@
-
 #!/bin/sh
 
 cd ..
@@ -22,13 +21,22 @@ cd ../../..
 pwd
 ls -l
 
-mkdir OpenSV/OpenShift/app/js/jPlayer
-cp -R OpenSV/Players/jPlayer/jquery.jplayer/* OpenSV/OpenShift/app/js/jPlayer/
-cp -R OpenSV/Players/jPlayer/popcorn/player/* OpenSV/OpenShift/app/js/jPlayer/
-cp -R OpenSV/Players/jPlayer/skin/* OpenSV/OpenShift/app/js/jPlayer/
+mkdir OpenSV/OpenShift/app/js/Players
 
-mkdir OpenSV/OpenShift/app/js/video.js
-cp -R OpenSV/Players/video.js/build/files/* OpenSV/OpenShift/app/js/video.js/
+#get jPlayer
+mkdir OpenSV/OpenShift/app/js/Players/jPlayer
+cp -R OpenSV/Players/jPlayer/jquery.jplayer/* OpenSV/OpenShift/app/js/Players/jPlayer/
+cp -R OpenSV/Players/jPlayer/popcorn/player/* OpenSV/OpenShift/app/js/Players/jPlayer/
+cp -R OpenSV/Players/jPlayer/skin OpenSV/OpenShift/app/js/Players/jPlayer/
+
+#get video.js
+mkdir OpenSV/OpenShift/app/js/Players/video.js
+cp -R OpenSV/Players/video.js/build/files/* OpenSV/OpenShift/app/js/Players/video.js/
+
+#get popcorn-js
+mkdir OpenSV/OpenShift/app/js/Players/popcorn
+cp -R OpenSV/Players/popcorn-js/popcorn.js OpenSV/OpenShift/app/js/Players/popcorn/
+cp -R OpenSV/Players/popcorn-js/plugins OpenSV/OpenShift/app/js/Players/popcorn/
 
 cp html/samples/videojs.html OpenSV/OpenShift/app/partials/
 cp html/samples/jPlayer.html OpenSV/OpenShift/app/partials/

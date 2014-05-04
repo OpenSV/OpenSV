@@ -40,6 +40,7 @@ cp -R OpenSV/Players/popcorn-js/plugins OpenSV/OpenShift/app/js/Players/popcorn/
 
 cp html/samples/videojs.html OpenSV/OpenShift/app/partials/
 cp html/samples/jPlayer.html OpenSV/OpenShift/app/partials/
+cp html/samples/popcornjs.html OpenSV/OpenShift/app/partials/
 
 scripts/pushToOpenShift.sh
 

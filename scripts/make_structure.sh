@@ -22,15 +22,15 @@ cd ../../..
 pwd
 ls -l
 
-mkdir /var/www/opensv
-mkdir /var/www/opensv/js
+mkdir OpenSV/OpenShift/app/js/jPlayer
+cp -R OpenSV/Players/jPlayer/jquery.jplayer/* OpenSV/OpenShift/app/js/jPlayer/
+cp -R OpenSV/Players/jPlayer/popcorn/player/* OpenSV/OpenShift/app/js/jPlayer/
+cp -R OpenSV/Players/jPlayer/skin/* OpenSV/OpenShift/app/js/jPlayer/
 
-cp -R OpenSV/Players /var/www/opensv/js/
-cp html/samples/videojs.html /var/www/opensv
+mkdir OpenSV/OpenShift/app/js/video.js
+cp -R OpenSV/Players/video.js/build/files/* OpenSV/OpenShift/app/js/video.js/
 
-cp -R OpenSV/Players OpenSV/OpenShift/app/js/
 cp html/samples/videojs.html OpenSV/OpenShift/app/partials/
-
 cp html/samples/jPlayer.html OpenSV/OpenShift/app/partials/
 
 scripts/pushToOpenShift.sh
